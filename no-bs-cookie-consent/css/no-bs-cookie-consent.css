@@ -1,0 +1,51 @@
+#no_bs_cookie_consent{
+	box-sizing:border-box;
+	position:fixed;
+	bottom:0;
+	left:0;
+	z-index:infinite;
+	width:100%;
+	height:auto;
+	background: #333;
+	color:#fefefe;
+	border-top:1px solid #770000;
+	padding:10px;
+	padding-left:50px;
+	padding-right:20px;
+	
+}
+.no_bs_cookie_forms{
+	display:inline-block;
+}
+
+.no_bs_cookie_forms input{
+	
+}
+.no_bs_cookie_forms input.btn {
+            color: white;
+            border: none;
+            border-radius: 25px;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+}
+
+.no_bs_cookie_forms input.btngreen {
+	background-color: #4CAF50; 
+}
+
+.no_bs_cookie_forms input.btngreen:hover {
+	background-color: #45a049; 
+}
+
+.no_bs_cookie_forms input.btnred {
+	background-color: #f44336;
+}
+
+.no_bs_cookie_forms input.btnred:hover {
+	background-color: #e53935;
+}
